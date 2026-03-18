@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { useRouter } from 'expo-router';
-import { Colors } from '@/constants/colors';
+import { Colors } from '../../constants/colors';
 
 type Tab = 'Texte' | 'URL' | 'Image' | 'Son';
 type ImageAnalysis = 'ia' | 'contenu' | null;
